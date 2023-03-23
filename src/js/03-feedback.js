@@ -40,6 +40,11 @@ function populateForm() {
       for (const key in formData) {
         form.elements[key].value = formData[key];
       }
+      // const entries = Object.entries(formData);
+
+      // entries.forEach(([key, value]) => {
+      //   return (form[key].value = [value]);
+      // });
     }
   } catch (error) {
     console.log(error);
